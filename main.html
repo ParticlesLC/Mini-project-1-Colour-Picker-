@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Colour Picker</title>
+        <style>
+            #RedColor {
+                background-color:red;
+            }
+            #GreenColor {
+                background-color:green;
+            }
+            #BlueColor {
+                background-color:blue;
+            }
+            button {
+                border-radius: 10px;
+                height: 40px;
+                width: 100px;
+                margin: 5px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h3>Pick a Colour:</h3>
+        <button id="RedColor" onclick="setColor('Red')">Red</button>
+        <button id="GreenColor" onclick="setColor('Green')">Green</button>
+        <button id="BlueColor" onclick="setColor('Blue')">Blue</button>
+        <button id="RandomColor" onclick="randomColor()">Random</button>
+        <script src="index.js"></script>
+    </body>
+</html>
